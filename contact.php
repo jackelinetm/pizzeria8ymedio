@@ -4,7 +4,7 @@ include_once 'layouts/navbar.php';
 
 // print_r($_POST);
 if (isset($_POST['submit'])) {
-    $to = "jato829@vidalibarraquer.net, jaso180@vidalibarraquer.net"; // mi email
+    $to = "jato829@vidalibarraquer.net"; // mi email
     $from = $_POST['email']; // el remitente
     $nombre = $_POST['name'];
     $telefono = $_POST['phone'];
